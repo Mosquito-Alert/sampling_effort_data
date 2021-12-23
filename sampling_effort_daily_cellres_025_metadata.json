@@ -1,0 +1,101 @@
+{
+"@context": {
+    "@vocab": "https://schema.org/",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "Dataset",
+"name": "sampling_effort_daily_cellres_025",
+"description": "Daily participant counts and sampling effort in 0.025 degree lon/lat sampling cells.",
+  "url": "",
+  "sameAs": "",
+  "identifier": "",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "citation": [
+    ""
+  ],
+  "creator": [
+    {
+      "@type": "Organization",
+      "@id": "CEAB",
+      "name": "Consejo Superior de Investigaciones Científicas - Centro de Estudios Avanzados de Blanes (CSIC-CEAB)"
+    },
+    {
+      "@type": "Person",
+      "@id": "JP",
+      "name": "Palmer, John Rossman Bertholf"
+    },
+    {
+      "@type": "Person",
+      "@id": "AE",
+      "name": "Escobar Rúbies, Agustí"
+    }
+  ],
+"variableMeasured": [
+  {
+    "@type": "PropertyValue",
+    "name": "masked_lon",
+    "description": "Longitude of the SW corner of the sampling cell.",
+    "unitText": "degrees",
+    "dataType": "xsd:numeric"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "masked_lat",
+    "description": "Latitude of the SW corner of the sampling cell.",
+    "unitText": "degrees",
+    "dataType": "xsd:numeric"
+  }, 
+{
+    "@type": "PropertyValue",
+    "name": "TigacellID",
+    "description": "Unique identifier of the sampling cell (formed simply by pasting together masked_lon and masked_lat, seperated by an underscore (_).",
+    "unitText": "",
+    "dataType": "xsd:string"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "date",
+    "description": "Date of the observation/estimate. YYYY-MM-Dd.",
+    "unitText": "",
+    "dataType": "xsd:date"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "n_participants",
+    "description": "Number of background tracks recorded in this cell on the given date. Note that some participants may be recorded more than once during a given day, and that some participants may not be recorded at all even though they were present in the cell, so this value is not necessarily the number of unique participants in the cell.",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "SE_expected",
+    "description": "Sampling effort estimated as the expected number of participants sending at least one report from the cell during the day in question given the the number of participants recorded in the cell that day and the amount of time elapsed since each one began participating in the project.",
+    "unitText": "",
+    "dataType": "xsd:numeric"
+  },
+  {
+    "@type": "PropertyValue",
+    "name": "SE",
+    "description": "Sampling effort estimated as the probability of at least one report being sent from the cell during the day in question given the the number of participants recorded in the cell that day and the amount of time elapsed since each one began participating in the project..",
+    "unitText": "",
+    "dataType": "xsd:numeric"
+  } 
+],
+  "measurementTechnique": [
+    "Mobile application for citizen science",
+    "Data validation by entomologists"
+  ],
+  "temporalCoverage": "2014/..",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Zenodo",
+      "description": "Distribution from the Zenodo open access repository.",
+      "encodingFormat": "CSV",
+      "contentUrl": ""
+    }
+  ]
+}
+
+}
