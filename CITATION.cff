@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+authors:
+- name: "Mosquito Alert"
+title: "Sampling Effort Data"
+version: 1.0.0
+date-released: 2021-12-23
+url: "https://github.com/Mosquito-Alert/sampling_effort_data"
