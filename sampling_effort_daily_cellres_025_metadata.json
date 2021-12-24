@@ -93,7 +93,7 @@
       "name": "Zenodo",
       "description": "Distribution from the Zenodo open access repository.",
       "encodingFormat": "CSV",
-      "contentUrl": ""
+      "contentUrl": "https://doi.org/10.5281/zenodo.5802476"
     }
   ]
 }
