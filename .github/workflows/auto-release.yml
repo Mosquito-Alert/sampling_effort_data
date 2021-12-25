@@ -12,7 +12,7 @@ jobs:
     - name: Create a Release
       uses: elgohr/Github-Release-Action@master
       env:
-        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         args: Mosquito Alert Sampling Effort Data. Open access data on Mosquito Alert participation and sampling effort.
 
