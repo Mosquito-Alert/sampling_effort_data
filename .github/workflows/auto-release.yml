@@ -9,3 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: gh release create v1.0.4 --notes "Mosquito Alert Sampling Effort Data."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
