@@ -8,4 +8,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: gh release create --notes "Mosquito Alert Sampling Effort Data: Open access data on Mosquito Alert participation and sampling effort."
+      - run: gh release create --notes "Mosquito Alert Sampling Effort Data."
