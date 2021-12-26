@@ -4,7 +4,7 @@ name: "auto-release"
 on:
   push:
     tags:
-    - '*'
+    - 'v*'
 
 jobs:
   build:
