@@ -56,7 +56,7 @@
   {
     "@type": "PropertyValue",
     "name": "date",
-    "description": "Date of the observation/estimate. YYYY-MM-Dd.",
+    "description": "Date of the observation/estimate. YYYY-MM-DD.",
     "unitText": "",
     "dataType": "xsd:date"
   }, 
