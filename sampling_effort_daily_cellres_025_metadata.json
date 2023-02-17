@@ -63,7 +63,7 @@
   {
     "@type": "PropertyValue",
     "name": "n_participants",
-    "description": "Number of background tracks recorded in this cell on the given date. Note that some participants may be recorded more than once during a given day, and that some participants may not be recorded at all even though they were present in the cell, so this value is not necessarily the number of unique participants in the cell.",
+    "description": "Number of unique participants recorded in this cell on the given date. (Note that not all participants who pass through the cell are recorded: some may have opted out of background tracking; others may simply not have generated a background track taken while in the cell.)",
     "unitText": "",
     "dataType": "xsd:integer"
   }, 
@@ -77,7 +77,7 @@
   {
     "@type": "PropertyValue",
     "name": "SE",
-    "description": "Sampling effort estimated as the probability of at least one report being sent from the cell during the day in question given the the number of participants recorded in the cell that day and the amount of time elapsed since each one began participating in the project..",
+    "description": "Sampling effort estimated as the probability of at least one report being sent from the cell during the day in question given the the number of participants recorded in the cell that day and the amount of time elapsed since each one began participating in the project.",
     "unitText": "",
     "dataType": "xsd:numeric"
   } 
