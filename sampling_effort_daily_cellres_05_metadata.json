@@ -80,7 +80,93 @@
     "description": "Sampling effort estimated as the probability of at least one report being sent from the cell during the day in question given the the number of participants recorded in the cell that day and the amount of time elapsed since each one began participating in the project.",
     "unitText": "",
     "dataType": "xsd:numeric"
-  } 
+  },
+  {
+    "@type": "PropertyValue",
+    "name": "n_reports_albopictus",
+    "description": "Number of validated reports of Ae. albopictus recorded in the cell that day. Validated defined here as having been given a score of 1 or 2 by the Mosquito Alert Digital Entolab.",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "n_reports_aegypti",
+    "description": "Number of validated reports of Ae. aegypti recorded in the cell that day. Validated defined here as having been given a score of 1 or 2 by the Mosquito Alert Digital Entolab.",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "n_reports_japonicus",
+    "description": "Number of validated reports of Ae. japonicus recorded in the cell that day. Validated defined here as having been given a score of 1 or 2 by the Mosquito Alert Digital Entolab.",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "n_reports_koreicus",
+    "description": "Number of validated reports of Ae. koreicus recorded in the cell that day. Validated defined here as having been given a score of 1 or 2 by the Mosquito Alert Digital Entolab.",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "n_reports_culex",
+    "description": "Number of validated reports of Culex recorded in the cell that day. Validated defined here as having been given a score of 1 or 2 by the Mosquito Alert Digital Entolab.",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+
+  {
+    "@type": "PropertyValue",
+    "name": "n_reports_bite",
+    "description": "Number of bite reports recorded in the cell that day. Note that there is no validation of bite reports. For purpose of this variable, each report is counted as 1, regardless of the number of bites the participant indicates in the report.",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "n_reporters_albopictus",
+    "description": "Number of unique participants who from whom at least one validated report of Ae. albopictus was recorded in the cell that day. Validated defined here as having been given a score of 1 or 2 by the Mosquito Alert Digital Entolab. Each participant sending at least one validated report is counted only once, no matter how many reports they sent.",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "n_reporters_aegypti",
+    "description": "Number of unique participants who from whom at least one validated report of Ae. aegypti was recorded in the cell that day. Validated defined here as having been given a score of 1 or 2 by the Mosquito Alert Digital Entolab. Each participant sending at least one validated report is counted only once, no matter how many reports they sent.",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "n_reporters_japonicus",
+    "description": "Number of unique participants who from whom at least one validated report of Ae. japonicus was recorded in the cell that day. Validated defined here as having been given a score of 1 or 2 by the Mosquito Alert Digital Entolab. Each participant sending at least one validated report is counted only once, no matter how many reports they sent.",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "n_reporters_koreicus",
+    "description": "Number of unique participants who from whom at least one validated report of Ae. koreicus was recorded in the cell that day. Validated defined here as having been given a score of 1 or 2 by the Mosquito Alert Digital Entolab. Each participant sending at least one validated report is counted only once, no matter how many reports they sent.",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "n_reporters_culex",
+    "description": "Number of unique participants who from whom at least one validated report of Culex was recorded in the cell that day. Validated defined here as having been given a score of 1 or 2 by the Mosquito Alert Digital Entolab. Each participant sending at least one validated report is counted only once, no matter how many reports they sent.",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+  {
+    "@type": "PropertyValue",
+    "name": "n_reporters_bite",
+    "description": "Number of unique participants who from whom at least one bite report was recorded in the cell that day. Note that there is no validation of bite reports. Each participant sending at least one bite report is counted only once, no matter how many reports they sent (or how many bites they listed in each report).",
+    "unitText": "",
+    "dataType": "xsd:integer"
+  }, 
+
 ],
   "measurementTechnique": [
     "Mobile application for citizen science",
