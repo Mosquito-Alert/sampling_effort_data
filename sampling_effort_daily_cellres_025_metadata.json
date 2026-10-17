@@ -165,7 +165,7 @@
     "description": "Number of unique participants who from whom at least one bite report was recorded in the cell that day. Note that there is no validation of bite reports. Each participant sending at least one bite report is counted only once, no matter how many reports they sent (or how many bites they listed in each report).",
     "unitText": "",
     "dataType": "xsd:integer"
-  }, 
+  }
 
 ],
   "measurementTechnique": [
